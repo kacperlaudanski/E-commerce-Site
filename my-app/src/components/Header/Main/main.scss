@@ -1,0 +1,39 @@
+
+main{
+    width:90%; 
+    margin: 5em auto;
+
+    .product-images{
+        width:50%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        .main-picture{
+            width:100%; 
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1em;
+
+            img{
+                max-width:80%;  
+                border-radius: 15px;
+            }
+        }
+
+        .bottom-pictures{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width:80%; 
+            height:100px; 
+
+            img{
+                max-width:20%; 
+                border-radius: 15px;
+            }
+        }
+    }
+}

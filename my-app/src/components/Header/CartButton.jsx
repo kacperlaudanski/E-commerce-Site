@@ -1,5 +1,5 @@
 import React from "react";
-import CartIcon from '../images/icon-cart.svg'
+import CartIcon from '../../images/icon-cart.svg'
 import './header.scss'
 
 

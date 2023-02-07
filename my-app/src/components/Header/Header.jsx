@@ -1,6 +1,6 @@
 import React from 'react'; 
-import Logo from '../images/logo.svg'
-import ProfilePicture from '../images/image-avatar.png'
+import Logo from '../../images/logo.svg'
+import ProfilePicture from '../../images/image-avatar.png'
 import './header.scss'
 import CartButton from './CartButton';
 
